@@ -7,31 +7,33 @@
 </head>
 
 <body>
-	<form method="POST">
- <label for="name">Name*</label>
-	<input type="text" id="#name" name="Name" value=""><br><br>
-<label for="Email">Email*</label>
-	<input type="email" id="#email" name="Email" value=""><br><br>
-<label for="Gender">Gender*</label>
-	<input type="radio" id="gender" name="Gender" value="">
-	<label for"male">male</label>
-	<input type="radio" id="gender" name="Gender" value="">
-	<label for"male">female</label><br><br>
-<label for="Laptop">Laptop Brands</label>
-<select id="Laptop brand">
-		 <option value="Apple">Apple</option>
-         <option value="Asus">Asus</option>
-         <option value="Hp">Hp</option>
+	<form method="post">
+
+<label for="name">Name</label>
+<input type="text" id="#name" required ><br><br>
+<label for="email">Email</label>
+<input type="email" id="#email" required><br><br>
+<label for="gender">Gender</label>
+<label for="male">Male</label>
+<input type="radio" name="gender" required>
+<label for="female">Female</label>
+<input type="radio" name="gender" required>
+<br><br>
+<label for="laptop">Laptop Brands</label>
+<select name="" id="#laptop">
+<option value="Apple">Apple</option>
+<option value="Asus">Asus</option>
+<option value="HP">HP</option>
 </select><br><br>
-	<label for="Age" >Age*</label>
-	<input type="number" id="#age" name="Age" min="1" max="150" required>
-<br><br>
-	<label for ="DOB">DOB*</label>
-	<input type="date" id="#dob" name="DOB">
-<br><br>
-	<label for="password" >Password*</label>
-	<input type="password" id="#password" name="password"><br><br>
-	<button>submit</button>
+<label for="age">Age</label>
+<input type="age" id="#age" required><br><br>
+<label for="dob">DOB</label>
+<input type="date" id="#dob" required><br><br>
+<label for="password">Password</label>
+<input type="password" id="#password" required><br><br>
+<button type="submit">submit button</button><br><br>
+<label for="portfolio">portfolio</label>
+<input type="url"id="portfolio">
 </form>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
